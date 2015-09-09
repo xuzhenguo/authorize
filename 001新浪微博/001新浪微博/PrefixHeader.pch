@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  001新浪微博
+//
+//  Created by MS on 15/9/8.
+//  Copyright (c) 2015年 MS. All rights reserved.
+//
+
+#ifndef _01_____PrefixHeader_pch
+#define _01_____PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+#import "help.h"
+#import "help2.h"
