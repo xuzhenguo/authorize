@@ -18,6 +18,8 @@
 
 //粉丝列表
 #define SINA_FRIENDSHIPS @"https://api.weibo.com/2/friendships/followers.json"
+//发微博带文字
+#define SINA_UPLOAD @"https://api.weibo.com/2/statuses/update.json"
 
 #define SCREEN_WIDHT [UIScreen mainScreen].bounds.size.width
 

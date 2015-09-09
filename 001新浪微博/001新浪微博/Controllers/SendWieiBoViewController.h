@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "SencondBaseViewController.h"
-@interface SendWieiBoViewController : SencondBaseViewController<UIAlertViewDelegate>
+@interface SendWieiBoViewController : SencondBaseViewController<UIAlertViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @end

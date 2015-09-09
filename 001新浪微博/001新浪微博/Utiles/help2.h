@@ -19,6 +19,11 @@
 //通过这个方法获取粉丝Url
 +(NSURL *)getFollowersUrl;
 
+
+//发送微博
++(NSURL *)getUpWeiBoUrl;
+
+
 //传入字典可以返回拼接好的接口
 +(NSURL *)connectWithAuthorizeUrl:(NSString *)baseUrl andParams:(NSDictionary *)params;
 

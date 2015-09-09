@@ -19,6 +19,14 @@
 //block   void (^) (id obj, NSError *err)
 + (NSURLSessionDataTask *)getFenSiPageData:(void (^) (id obj, NSError *err))block withPage:(int)page;
 
+//发送微博不带图片
+//https://api.weibo.com/2/statuses/update.json
++ (NSURLSessionDataTask *)sendWeiboWithBlock:(void (^)(id obj, NSError *error))block andContent:(NSString*)content;
+
+
+//发送微博带图片
+//https://api.weibo.com/2/statuses/upload.json
++ (NSURLSessionDataTask *)sendWeiboWithBlock:(void (^)(id obj, NSError *error))block andContent:(NSString*)content andImage:(UIImage*)image;
 
 @end
 

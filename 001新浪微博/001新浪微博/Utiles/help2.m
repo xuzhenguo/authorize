@@ -41,6 +41,18 @@ NSString *path;
     
 }
 
+//发送微博文字
++(NSURL *)getUpWeiBoUrl
+{
+        NSString *access_token = [[NSUserDefaults standardUserDefaults]objectForKey:ACCESS_TOKEN];
+    NSDictionary *params = @{@"access_token":access_token,@"status":@"content"};
+    
+    NSURL *friendshipsUrl = [help2 connectWithAuthorizeUrl:SINA_FRIENDSHIPS andParams:params];
+    
+    return friendshipsUrl;
+    
+}
+
 
 +(NSURL *)connectWithAuthorizeUrl:(NSString *)baseUrl andParams:(NSDictionary *)params
 {
