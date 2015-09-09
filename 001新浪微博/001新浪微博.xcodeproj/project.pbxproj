@@ -61,6 +61,20 @@
 		4E8AE7C61B9F188600718806 /* FenSiMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AE7C51B9F188600718806 /* FenSiMode.m */; };
 		4E8AE7CA1B9F205000718806 /* FenSiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AE7C81B9F205000718806 /* FenSiTableViewCell.m */; };
 		4E8AE7CB1B9F205000718806 /* FenSiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AE7C91B9F205000718806 /* FenSiTableViewCell.xib */; };
+		4EF9500A1BA00A9600183F91 /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF94FF61BA00A9600183F91 /* MMHud.m */; };
+		4EF9500B1BA00A9600183F91 /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF94FF81BA00A9600183F91 /* MMLinearProgressView.m */; };
+		4EF9500C1BA00A9600183F91 /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF94FFA1BA00A9600183F91 /* MMProgressHUD+Animations.m */; };
+		4EF9500D1BA00A9600183F91 /* MMProgressHUD+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF94FFB1BA00A9600183F91 /* MMProgressHUD+Class.m */; };
+		4EF9500E1BA00A9600183F91 /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF94FFD1BA00A9600183F91 /* MMProgressHUD.m */; };
+		4EF9500F1BA00A9600183F91 /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950001BA00A9600183F91 /* MMProgressHUDOverlayView.m */; };
+		4EF950101BA00A9600183F91 /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950021BA00A9600183F91 /* MMProgressHUDViewController.m */; };
+		4EF950111BA00A9600183F91 /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950041BA00A9600183F91 /* MMProgressHUDWindow.m */; };
+		4EF950121BA00A9600183F91 /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950071BA00A9600183F91 /* MMRadialProgressView.m */; };
+		4EF950131BA00A9600183F91 /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950091BA00A9600183F91 /* MMVectorImage.m */; };
+		4EF950171BA00DC400183F91 /* SendWieiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF950151BA00DC400183F91 /* SendWieiBoViewController.m */; };
+		4EF950181BA00DC400183F91 /* SendWieiBoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF950161BA00DC400183F91 /* SendWieiBoViewController.xib */; };
+		4EF9501C1BA010A300183F91 /* SencondBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9501A1BA010A300183F91 /* SencondBaseViewController.m */; };
+		4EF9501D1BA010A300183F91 /* SencondBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9501B1BA010A300183F91 /* SencondBaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +195,33 @@
 		4E8AE7C71B9F205000718806 /* FenSiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FenSiTableViewCell.h; sourceTree = "<group>"; };
 		4E8AE7C81B9F205000718806 /* FenSiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FenSiTableViewCell.m; sourceTree = "<group>"; };
 		4E8AE7C91B9F205000718806 /* FenSiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FenSiTableViewCell.xib; sourceTree = "<group>"; };
+		4EF94FF51BA00A9600183F91 /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
+		4EF94FF61BA00A9600183F91 /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
+		4EF94FF71BA00A9600183F91 /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
+		4EF94FF81BA00A9600183F91 /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
+		4EF94FF91BA00A9600183F91 /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
+		4EF94FFA1BA00A9600183F91 /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
+		4EF94FFB1BA00A9600183F91 /* MMProgressHUD+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Class.m"; sourceTree = "<group>"; };
+		4EF94FFC1BA00A9600183F91 /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
+		4EF94FFD1BA00A9600183F91 /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
+		4EF94FFE1BA00A9600183F91 /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
+		4EF94FFF1BA00A9600183F91 /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
+		4EF950001BA00A9600183F91 /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
+		4EF950011BA00A9600183F91 /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
+		4EF950021BA00A9600183F91 /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
+		4EF950031BA00A9600183F91 /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
+		4EF950041BA00A9600183F91 /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
+		4EF950051BA00A9600183F91 /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
+		4EF950061BA00A9600183F91 /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
+		4EF950071BA00A9600183F91 /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
+		4EF950081BA00A9600183F91 /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
+		4EF950091BA00A9600183F91 /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		4EF950141BA00DC400183F91 /* SendWieiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendWieiBoViewController.h; sourceTree = "<group>"; };
+		4EF950151BA00DC400183F91 /* SendWieiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendWieiBoViewController.m; sourceTree = "<group>"; };
+		4EF950161BA00DC400183F91 /* SendWieiBoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendWieiBoViewController.xib; sourceTree = "<group>"; };
+		4EF950191BA010A300183F91 /* SencondBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SencondBaseViewController.h; sourceTree = "<group>"; };
+		4EF9501A1BA010A300183F91 /* SencondBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SencondBaseViewController.m; sourceTree = "<group>"; };
+		4EF9501B1BA010A300183F91 /* SencondBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SencondBaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +339,9 @@
 				4E8AE72A1B9E8DEC00718806 /* MainViewController.m */,
 				4E8AE72C1B9E8EAD00718806 /* BaseViewController.h */,
 				4E8AE72D1B9E8EAD00718806 /* BaseViewController.m */,
+				4EF950191BA010A300183F91 /* SencondBaseViewController.h */,
+				4EF9501A1BA010A300183F91 /* SencondBaseViewController.m */,
+				4EF9501B1BA010A300183F91 /* SencondBaseViewController.xib */,
 				4E8AE72F1B9E8EEE00718806 /* HomeViewController.h */,
 				4E8AE7301B9E8EEE00718806 /* HomeViewController.m */,
 				4E8AE7311B9E8EEE00718806 /* HomeViewController.xib */,
@@ -316,6 +360,9 @@
 				4E8AE77B1B9EB24B00718806 /* LoginViewController.h */,
 				4E8AE77C1B9EB24B00718806 /* LoginViewController.m */,
 				4E8AE77D1B9EB24B00718806 /* LoginViewController.xib */,
+				4EF950141BA00DC400183F91 /* SendWieiBoViewController.h */,
+				4EF950151BA00DC400183F91 /* SendWieiBoViewController.m */,
+				4EF950161BA00DC400183F91 /* SendWieiBoViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -350,6 +397,7 @@
 		4E8AE6FF1B9E8C8800718806 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				4EF94FF31BA00A9600183F91 /* MMProgressHUD */,
 				4E81AE411B9F2776009F3AA8 /* SDWebImage */,
 				4E8AE7851B9F0C7000718806 /* AFNetworking */,
 				4E8AE71F1B9E8D3B00718806 /* RDVTabBarController */,
@@ -451,6 +499,42 @@
 			path = ../NetWorking;
 			sourceTree = "<group>";
 		};
+		4EF94FF31BA00A9600183F91 /* MMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4EF94FF41BA00A9600183F91 /* Source */,
+			);
+			path = MMProgressHUD;
+			sourceTree = "<group>";
+		};
+		4EF94FF41BA00A9600183F91 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4EF94FF51BA00A9600183F91 /* MMHud.h */,
+				4EF94FF61BA00A9600183F91 /* MMHud.m */,
+				4EF94FF71BA00A9600183F91 /* MMLinearProgressView.h */,
+				4EF94FF81BA00A9600183F91 /* MMLinearProgressView.m */,
+				4EF94FF91BA00A9600183F91 /* MMProgressHUD+Animations.h */,
+				4EF94FFA1BA00A9600183F91 /* MMProgressHUD+Animations.m */,
+				4EF94FFB1BA00A9600183F91 /* MMProgressHUD+Class.m */,
+				4EF94FFC1BA00A9600183F91 /* MMProgressHUD.h */,
+				4EF94FFD1BA00A9600183F91 /* MMProgressHUD.m */,
+				4EF94FFE1BA00A9600183F91 /* MMProgressHUDCommon.h */,
+				4EF94FFF1BA00A9600183F91 /* MMProgressHUDOverlayView.h */,
+				4EF950001BA00A9600183F91 /* MMProgressHUDOverlayView.m */,
+				4EF950011BA00A9600183F91 /* MMProgressHUDViewController.h */,
+				4EF950021BA00A9600183F91 /* MMProgressHUDViewController.m */,
+				4EF950031BA00A9600183F91 /* MMProgressHUDWindow.h */,
+				4EF950041BA00A9600183F91 /* MMProgressHUDWindow.m */,
+				4EF950051BA00A9600183F91 /* MMProgressView-Protocol.h */,
+				4EF950061BA00A9600183F91 /* MMRadialProgressView.h */,
+				4EF950071BA00A9600183F91 /* MMRadialProgressView.m */,
+				4EF950081BA00A9600183F91 /* MMVectorImage.h */,
+				4EF950091BA00A9600183F91 /* MMVectorImage.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -537,7 +621,9 @@
 				4E8AE6E31B9E8B4700718806 /* Images.xcassets in Resources */,
 				4E81AE561B9F2776009F3AA8 /* LICENSE in Resources */,
 				4E8AE7381B9E8F1500718806 /* FansListViewController.xib in Resources */,
+				4EF9501D1BA010A300183F91 /* SencondBaseViewController.xib in Resources */,
 				4E8AE74F1B9E8FC300718806 /* MineWeiBoViewController.xib in Resources */,
+				4EF950181BA00DC400183F91 /* SendWieiBoViewController.xib in Resources */,
 				4E8AE7331B9E8EEE00718806 /* HomeViewController.xib in Resources */,
 				4E8AE7421B9E8F4900718806 /* AttentionListViewController.xib in Resources */,
 				4E8AE7471B9E8F6600718806 /* MineViewController.xib in Resources */,
@@ -561,12 +647,16 @@
 				4E8AE7C21B9F0C9E00718806 /* AFAppDotNetAPIClient.m in Sources */,
 				4E8AE7C31B9F0C9E00718806 /* DownLoadData.m in Sources */,
 				4E8AE7261B9E8D3B00718806 /* RDVTabBar.m in Sources */,
+				4EF950101BA00A9600183F91 /* MMProgressHUDViewController.m in Sources */,
 				4E8AE7B61B9F0C7000718806 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				4EF950111BA00A9600183F91 /* MMProgressHUDWindow.m in Sources */,
 				4E8AE7BB1B9F0C7000718806 /* UIRefreshControl+AFNetworking.m in Sources */,
+				4EF950171BA00DC400183F91 /* SendWieiBoViewController.m in Sources */,
 				4E8AE7B81B9F0C7000718806 /* UIButton+AFNetworking.m in Sources */,
 				4E81AE571B9F2776009F3AA8 /* README.md in Sources */,
 				4E81AE5D1B9F2776009F3AA8 /* UIButton+WebCache.m in Sources */,
 				4E81AE5A1B9F2776009F3AA8 /* SDWebImageDownloader.m in Sources */,
+				4EF9500A1BA00A9600183F91 /* MMHud.m in Sources */,
 				4E8AE7B71B9F0C7000718806 /* UIAlertView+AFNetworking.m in Sources */,
 				4E8AE72B1B9E8DEC00718806 /* MainViewController.m in Sources */,
 				4E81AE5C1B9F2776009F3AA8 /* SDWebImagePrefetcher.m in Sources */,
@@ -574,30 +664,38 @@
 				4E8AE74E1B9E8FC300718806 /* MineWeiBoViewController.m in Sources */,
 				4E8AE7B31B9F0C7000718806 /* AFURLResponseSerialization.m in Sources */,
 				4E81AE591B9F2776009F3AA8 /* SDWebImageDecoder.m in Sources */,
+				4EF9500D1BA00A9600183F91 /* MMProgressHUD+Class.m in Sources */,
 				4E8AE7B11B9F0C7000718806 /* AFURLConnectionOperation.m in Sources */,
 				4E8AE7271B9E8D3B00718806 /* RDVTabBarController.m in Sources */,
 				4E8AE7411B9E8F4900718806 /* AttentionListViewController.m in Sources */,
 				4E81AE5B1B9F2776009F3AA8 /* SDWebImageManager.m in Sources */,
 				4E8AE7BA1B9F0C7000718806 /* UIProgressView+AFNetworking.m in Sources */,
 				4E8AE7AD1B9F0C7000718806 /* AFHTTPRequestOperationManager.m in Sources */,
+				4EF9500F1BA00A9600183F91 /* MMProgressHUDOverlayView.m in Sources */,
 				4E8AE6E11B9E8B4700718806 /* AppDelegate.m in Sources */,
 				4E81AE581B9F2776009F3AA8 /* SDImageCache.m in Sources */,
 				4E81AE5E1B9F2776009F3AA8 /* UIImageView+WebCache.m in Sources */,
 				4E8AE7B01B9F0C7000718806 /* AFSecurityPolicy.m in Sources */,
+				4EF9500B1BA00A9600183F91 /* MMLinearProgressView.m in Sources */,
 				4E8AE7841B9EBDB900718806 /* help2.m in Sources */,
+				4EF9501C1BA010A300183F91 /* SencondBaseViewController.m in Sources */,
 				4E8AE7461B9E8F6600718806 /* MineViewController.m in Sources */,
 				4E8AE7B21B9F0C7000718806 /* AFURLRequestSerialization.m in Sources */,
 				4E8AE7AF1B9F0C7000718806 /* AFNetworkReachabilityManager.m in Sources */,
 				4E8AE6DE1B9E8B4700718806 /* main.m in Sources */,
 				4E8AE7B91B9F0C7000718806 /* UIImageView+AFNetworking.m in Sources */,
 				4E8AE72E1B9E8EAD00718806 /* BaseViewController.m in Sources */,
+				4EF9500C1BA00A9600183F91 /* MMProgressHUD+Animations.m in Sources */,
 				4E8AE7371B9E8F1500718806 /* FansListViewController.m in Sources */,
 				4E8AE7CA1B9F205000718806 /* FenSiTableViewCell.m in Sources */,
 				4E8AE7C61B9F188600718806 /* FenSiMode.m in Sources */,
 				4E8AE7AC1B9F0C7000718806 /* AFHTTPRequestOperation.m in Sources */,
 				4E8AE7281B9E8D3B00718806 /* RDVTabBarItem.m in Sources */,
+				4EF9500E1BA00A9600183F91 /* MMProgressHUD.m in Sources */,
 				4E8AE7B51B9F0C7000718806 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4E8AE7AE1B9F0C7000718806 /* AFHTTPSessionManager.m in Sources */,
+				4EF950121BA00A9600183F91 /* MMRadialProgressView.m in Sources */,
+				4EF950131BA00A9600183F91 /* MMVectorImage.m in Sources */,
 				4E8AE7BC1B9F0C7000718806 /* UIWebView+AFNetworking.m in Sources */,
 				4E8AE7321B9E8EEE00718806 /* HomeViewController.m in Sources */,
 				4E8AE7B41B9F0C7000718806 /* AFURLSessionManager.m in Sources */,

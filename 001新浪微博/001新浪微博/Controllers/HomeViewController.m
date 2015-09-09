@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "SendWieiBoViewController.h"
 @interface HomeViewController ()
 
 @end
@@ -17,8 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"主页";
+    
+    UIBarButtonItem *sendweiBoBnt = [[UIBarButtonItem alloc]initWithTitle:@"发微博" style:UIBarButtonItemStylePlain target:self action:@selector(sendeweiBo:)];
+    
+    self.navigationItem.rightBarButtonItem = sendweiBoBnt;
+    
 }
-
+-(void)sendeweiBo:(id)sender
+{
+    SendWieiBoViewController *sendWeiBoVc = [[SendWieiBoViewController alloc]init];
+    
+    [self.navigationController pushViewController:sendWeiBoVc animated:YES];
+    
+    
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

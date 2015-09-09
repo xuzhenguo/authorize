@@ -66,24 +66,23 @@
         return NO;
     }
     
-    NSLog(@"%@",path);
-    
      return YES;
 }
 //开始请求时回调
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
-    
+    [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleFade];
+    [MMProgressHUD showDeterminateProgressWithTitle:@"Loading..." status:@"     "];
 }
 //请求成功时回调
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    
+    [MMProgressHUD dismissWithSuccess:@"Success"];
 }
 //请求失败时回到
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
-    
+    [MMProgressHUD dismissWithSuccess:@"Success"];
 }
 
 

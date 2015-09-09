@@ -112,11 +112,10 @@
             [self presentViewController:longinNav animated:YES completion:nil];
 
     }
-
-    
 }
 
 //配置控制器
+
 -(void)setViewControllers
 {
     
@@ -190,8 +189,6 @@
         
     }
 }
-
-
 
 
 @end
